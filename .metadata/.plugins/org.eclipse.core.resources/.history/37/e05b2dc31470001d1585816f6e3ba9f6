@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Cond_IF {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Double cod1,cod2,cod3,cod4,cod5,total;
+		
+		System.out.println("Digite a hora de inicio e termino do jogo:");
+		
+		cod1 = sc.nextDouble();
+		cod2 = sc.nextDouble();
+		cod3 = sc.nextDouble();
+		cod4 = sc.nextDouble();
+		cod5 = sc.nextDouble();
+
+		if ( A < B ) {
+			
+			duracao = B - A ;
+		}
+		
+		else { 
+			duracao = 24 - A + B ;
+		}
+		System.out.println("O jodo durou: "+ duracao + " Horas");
+		
+		
+		
+sc.close();
+	}
+
+}

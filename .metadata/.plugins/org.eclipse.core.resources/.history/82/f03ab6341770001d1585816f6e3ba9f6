@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Cond_IF {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Double n;
+				
+		System.out.println("Digite o numero ");
+		
+		n = sc.nextDouble();
+		
+		
+		
+
+		if ( n < 0.0 || n > 100.0 ) {
+			System.out.println("Fora de intervalo");
+		}
+		else if (n <= 25) {
+			System.out.println("Intervalo (0, 25] ");
+		}
+			
+		
+		
+		System.out.printf("Total : %.2f%n", total);
+		
+sc.close();
+	}
+
+}

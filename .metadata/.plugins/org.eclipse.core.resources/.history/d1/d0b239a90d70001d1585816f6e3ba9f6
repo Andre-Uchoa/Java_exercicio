@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Cond_IF {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int hora;
+		
+		
+		System.out.println("Que horas sao? ");
+		
+		hora = sc.nextInt();
+
+		
+		if ( hora < 12 ) {
+				
+			System.out.println("Bom dia");
+		
+		}
+		
+		else ( x >=12 || x < 18){
+		
+			System.out.println("Boa tarde");
+		
+		}
+		
+		else ( x>= 18){
+			System.out.println("Boa noite")
+		}
+		
+
+sc.close();
+	}
+
+}

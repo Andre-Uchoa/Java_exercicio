@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double l,c,a,p;
+		
+		l = 10.0;
+		c = 30.0;
+		
+		a = l * c ;
+		p = a * 200.00;
+		
+		System.out.println("A area e de: " + a );
+		System.out.println("O preco e de: R$ = " + p);
+				
+				
+		
+	}
+
+}

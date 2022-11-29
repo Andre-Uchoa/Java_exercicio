@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Curso_java {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int minutos,valor;
+		
+		minutos = scnextInt();
+		
+		if( minutos <= 50) {
+			System.out.println("Valor a pagar: R$ = 50.00");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+}
