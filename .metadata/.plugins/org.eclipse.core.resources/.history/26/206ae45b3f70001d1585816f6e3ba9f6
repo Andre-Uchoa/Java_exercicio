@@ -31,6 +31,7 @@ public class estrutura_repeticao {
 		System.out.println("Gasolina: " + gasolina);
 		System.out.println("Diesel: " + diesel);
 		
+
 		sc.close();
 	}
 }
